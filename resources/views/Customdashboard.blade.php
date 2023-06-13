@@ -24,7 +24,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ url('chatify') }}">Chats</a>
+                        <a class="nav-link active" aria-current="page" href="{{ url('chats') }}">Chats</a>
                     </li>
                     <li class="nav-item">
                     </li>
@@ -50,7 +50,7 @@
             <h1>Cric-Adda ChatApp</h1>
             <p class="lead font-weight-bold" style="font-weight: 600">The site is under development phase, you can only
                 test it for now!</p>
-            <a href="{{ url('chatify') }}" class="btn btn-dark">Start Chat</a>
+            <a href="{{ url('chats') }}" class="btn btn-dark">Start Chat</a>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
