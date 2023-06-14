@@ -14,7 +14,7 @@ return [
     | files and derived images by default.
     |-------------------------------------
     */
-    'storage_disk_name' => env('CHATIFY_STORAGE_DISK', 'public_html'),
+    'storage_disk_name' => env('CHATIFY_STORAGE_DISK', 'public'),
 
     /*
     |-------------------------------------
